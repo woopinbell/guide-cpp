@@ -1,0 +1,43 @@
+# 운영체제와 편집기
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 빌드 결과
+build/
+**/build/
+**/build-*/
+*.o
+*.d
+*.a
+*.so
+*.dylib
+*.out
+*.dSYM/
+
+# 이 저장소의 실행 파일
+exercises/mini-vector/demo
+exercises/mini-vector/tests/mini_vector_tests
+exercises/command-service/command_service
+exercises/command-service/tests/unit_tests
+exercises/line-server/line_server
+
+# 테스트와 진단 도구
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+.coverage
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# 로그와 임시 파일
+*.log
+*.pid
+*.tmp
+.env
+.env.*
+!.env.example
